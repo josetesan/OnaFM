@@ -10,10 +10,12 @@
 #import "AudioStreamer.h"
 
 
+
 @interface ONA_FMViewController : UIViewController <UIWebViewDelegate>{
 
 	IBOutlet UIButton *playButton;
 	IBOutlet UIToolbar *toolbar;
+
 	AudioStreamer *streamer;
 	IBOutlet UIWebView* webView;
 	UIActivityIndicatorView *spinner;
@@ -27,9 +29,11 @@
 
 
 
+
 -(IBAction) startTheAction:(id)sender;
 -(void) queueTheWeb;
 -(void) stopAudio;
 -(void) runAudio;
+
 @end
 

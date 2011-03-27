@@ -18,6 +18,7 @@
 @synthesize toolbar;
 
 
+
 -(void) stopAudio {
 	[streamer stop];
 	
@@ -136,7 +137,7 @@
 	
 	
 	spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-	[spinner setCenter:CGPointMake(160, 420)]; 
+	[spinner setCenter:CGPointMake(160, 380)]; 
 	// spinner is not visible until started
 	[self.view addSubview:spinner];
 	[spinner release];
@@ -155,10 +156,20 @@
 	[self queueTheWeb];
 	[self.toolbar setFrame:CGRectMake(0, 0	, 320, 30)];
 	[self.toolbar setHidden:YES];
+    
     [super viewDidLoad];
 
  }
 
+
+
+- (void)adEngineDidReceiveBanner:(NSDictionary *)userInfo {
+    NSLog(@"Data means %@",userInfo);
+}
+
+- (void)adEngineDidFail:(NSString *)identifier {
+    NSLog(@"Error is %@",identifier);
+}
 
 - (void) queueTheWeb {
 
@@ -206,7 +217,7 @@
 		[self createStreamer];
 		[streamer start];
 		MPVolumeView *volumeView = [[[MPVolumeView alloc] initWithFrame:
-									 CGRectMake(0, 440, 320, 36)] autorelease];
+									 CGRectMake(0, 378, 320, 49)] autorelease];
 	//	volumeView.center = CGPointMake(160,445);
 		[volumeView sizeToFit];
 		[self.view addSubview:volumeView];
@@ -236,6 +247,7 @@
 	
 	[spinner release];
 	[playButton release];
+
 	[super viewDidUnload];
 }
 #endif
@@ -266,6 +278,8 @@
 	[webSpinner stopAnimating];
 }
 
+#pragma mark -
+#pragma mark AdView
 
 
 @end
