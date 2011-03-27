@@ -10,6 +10,10 @@
 	<string>ONA FM</string>
 	<key>CFBundleIconFile</key>
 	<string>ona_ico.png</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>ona_ico.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>cat.ona-fm.ONAFM</string>
 	<key>CFBundleInfoDictionaryVersion</key>
