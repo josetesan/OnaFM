@@ -16,6 +16,7 @@
 @synthesize webView;
 @synthesize playButton;
 @synthesize toolbar;
+@synthesize adBannerView;
 
 
 
@@ -157,6 +158,11 @@
 	[self.toolbar setFrame:CGRectMake(0, 0	, 320, 30)];
 	[self.toolbar setHidden:YES];
     
+    [self hideBannerView];
+    [adBannerView setAdSpaceID:@"7675" forType:CNSAdBannerTypePortrait];
+    [adBannerView setAdSpaceID:@"7676" forType:CNSAdBannerTypeLandscape];
+    [adBannerView performSelector:@selector(load) withObject:nil];
+    
     [super viewDidLoad];
 
  }
@@ -245,6 +251,9 @@
  #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_3_0 
 - (void)viewDidUnload {
 	
+    self.adBannerView.delegate = nil; 
+    self.adBannerView = nil;
+    
 	[spinner release];
 	[playButton release];
 
@@ -281,5 +290,51 @@
 #pragma mark -
 #pragma mark AdView
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation { return YES;
+}
 
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+    if (UIInterfaceOrientationIsPortrait(toInterfaceOrientation)) { adBannerView.currentType = CNSAdBannerTypePortrait;
+    } else {
+        adBannerView.currentType = CNSAdBannerTypeLandscape;
+    }
+}
+
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation duration:(NSTimeInterval)duration {
+        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) { 
+            if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
+            adBannerView.frame = CGRectMake(0, 880 + (!adBannerView.available ? 124 : 0), 768, 124);
+        } else {
+        
+            adBannerView.frame = CGRectMake(0, 581 + (!adBannerView.available ? 167 : 0), 1024, 167);
+        }
+    } else {
+        if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) { 
+            adBannerView.frame = CGRectMake(0, 407 + (!adBannerView.available ? 53 : 0), 320, 53);
+        } else {
+            adBannerView.frame = CGRectMake(0, 247 + (!adBannerView.available ? 53 : 0), 480, 53);
+        }
+    }
+}
+
+
+
+
+
+- (void)hideBannerView { 
+    CGRect frame = adBannerView.frame; 
+    frame.origin.y = self.view.frame.size.height;
+    adBannerView.frame = frame;
+}
+
+- (void)adBannerViewDidLoad:(CNSAdBannerView *)theAdBannerView { 
+    if (!adBannerView.available) {
+        
+        [UIView beginAnimations:@"showAdBanner" context:nil];
+        CGRect frame = adBannerView.frame;
+        frame.origin.y -= adBannerView.frame.size.height;
+        adBannerView.frame = frame;
+        [UIView commitAnimations];
+    }
+}
 @end

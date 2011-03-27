@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AudioStreamer.h"
+#import "CNSAdKit.h"
 
 
 
@@ -15,7 +16,7 @@
 
 	IBOutlet UIButton *playButton;
 	IBOutlet UIToolbar *toolbar;
-
+    CNSAdBannerView *adBannerView;
 	AudioStreamer *streamer;
 	IBOutlet UIWebView* webView;
 	UIActivityIndicatorView *spinner;
@@ -26,6 +27,7 @@
 @property (nonatomic,retain) IBOutlet UIButton *playButton;
 @property (nonatomic,retain) IBOutlet UIWebView *webView;
 @property (nonatomic,retain) IBOutlet UIToolbar *toolbar;
+@property (nonatomic, retain) IBOutlet CNSAdBannerView *adBannerView;
 
 
 
@@ -34,6 +36,9 @@
 -(void) queueTheWeb;
 -(void) stopAudio;
 -(void) runAudio;
+#pragma mark -
+#pragma mark AdBanners
+-(void)hideBannerView;
 
 @end
 
