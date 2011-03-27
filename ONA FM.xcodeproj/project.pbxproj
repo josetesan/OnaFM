@@ -20,6 +20,23 @@
 		BB1D7298111B5B45009B64C3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7297111B5B45009B64C3 /* MediaPlayer.framework */; };
 		BB1D729A111B5B45009B64C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7299111B5B45009B64C3 /* QuartzCore.framework */; };
 		BB1D729C111B5B45009B64C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D729B111B5B45009B64C3 /* UIKit.framework */; };
+		BB46FB5E133F587A00DD98F2 /* CNSAdBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB42133F587A00DD98F2 /* CNSAdBannerView.m */; };
+		BB46FB5F133F587A00DD98F2 /* CNSAdConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB44133F587A00DD98F2 /* CNSAdConstants.m */; };
+		BB46FB60133F587A00DD98F2 /* CNSAdEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB46133F587A00DD98F2 /* CNSAdEngine.m */; };
+		BB46FB61133F587A00DD98F2 /* CNSAdEngineConnectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB48133F587A00DD98F2 /* CNSAdEngineConnectionHelper.m */; };
+		BB46FB62133F587A00DD98F2 /* CNSAdEngineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB4A133F587A00DD98F2 /* CNSAdEngineParser.m */; };
+		BB46FB63133F587A00DD98F2 /* CNSAnimatedGIFLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB4D133F587A00DD98F2 /* CNSAnimatedGIFLoader.m */; };
+		BB46FB64133F587A00DD98F2 /* CNSInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB4F133F587A00DD98F2 /* CNSInterstitialViewController.m */; };
+		BB46FB65133F587A00DD98F2 /* CNSSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB51133F587A00DD98F2 /* CNSSplashViewController.m */; };
+		BB46FB66133F587A00DD98F2 /* CNSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB53133F587A00DD98F2 /* CNSStringAdditions.m */; };
+		BB46FB67133F587A00DD98F2 /* CNSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46FB55133F587A00DD98F2 /* CNSWebViewController.m */; };
+		BB46FB68133F587A00DD98F2 /* CNSBackgroundAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB57133F587A00DD98F2 /* CNSBackgroundAlert.png */; };
+		BB46FB69133F587A00DD98F2 /* CNSButtonAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB58133F587A00DD98F2 /* CNSButtonAlert.png */; };
+		BB46FB6A133F587A00DD98F2 /* CNSButtonClose.png in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB59133F587A00DD98F2 /* CNSButtonClose.png */; };
+		BB46FB6B133F587A00DD98F2 /* CNSButtonSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB5A133F587A00DD98F2 /* CNSButtonSettings.png */; };
+		BB46FB6C133F587A00DD98F2 /* CNSButtonSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB5B133F587A00DD98F2 /* CNSButtonSettings@2x.png */; };
+		BB46FB6D133F587A00DD98F2 /* CNSInterstitialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB5C133F587A00DD98F2 /* CNSInterstitialView.xib */; };
+		BB46FB6E133F587A00DD98F2 /* CNSSplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB5D133F587A00DD98F2 /* CNSSplashView.xib */; };
 		BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB527B9410B7EE04003EEBBC /* Entitlements.plist */; };
 		BBDF5D7F113EBA8F00D0EB0E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */; };
 		BBE0176B10A6139300D303CF /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE0176910A6139300D303CF /* pausebutton.png */; };
@@ -48,6 +65,34 @@
 		BB1D7297111B5B45009B64C3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		BB1D7299111B5B45009B64C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BB1D729B111B5B45009B64C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB46FB41133F587A00DD98F2 /* CNSAdBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdBannerView.h; sourceTree = "<group>"; };
+		BB46FB42133F587A00DD98F2 /* CNSAdBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSAdBannerView.m; sourceTree = "<group>"; };
+		BB46FB43133F587A00DD98F2 /* CNSAdConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdConstants.h; sourceTree = "<group>"; };
+		BB46FB44133F587A00DD98F2 /* CNSAdConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSAdConstants.m; sourceTree = "<group>"; };
+		BB46FB45133F587A00DD98F2 /* CNSAdEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdEngine.h; sourceTree = "<group>"; };
+		BB46FB46133F587A00DD98F2 /* CNSAdEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSAdEngine.m; sourceTree = "<group>"; };
+		BB46FB47133F587A00DD98F2 /* CNSAdEngineConnectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdEngineConnectionHelper.h; sourceTree = "<group>"; };
+		BB46FB48133F587A00DD98F2 /* CNSAdEngineConnectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSAdEngineConnectionHelper.m; sourceTree = "<group>"; };
+		BB46FB49133F587A00DD98F2 /* CNSAdEngineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdEngineParser.h; sourceTree = "<group>"; };
+		BB46FB4A133F587A00DD98F2 /* CNSAdEngineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSAdEngineParser.m; sourceTree = "<group>"; };
+		BB46FB4B133F587A00DD98F2 /* CNSAdKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdKit.h; sourceTree = "<group>"; };
+		BB46FB4C133F587A00DD98F2 /* CNSAnimatedGIFLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAnimatedGIFLoader.h; sourceTree = "<group>"; };
+		BB46FB4D133F587A00DD98F2 /* CNSAnimatedGIFLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSAnimatedGIFLoader.m; sourceTree = "<group>"; };
+		BB46FB4E133F587A00DD98F2 /* CNSInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSInterstitialViewController.h; sourceTree = "<group>"; };
+		BB46FB4F133F587A00DD98F2 /* CNSInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSInterstitialViewController.m; sourceTree = "<group>"; };
+		BB46FB50133F587A00DD98F2 /* CNSSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSSplashViewController.h; sourceTree = "<group>"; };
+		BB46FB51133F587A00DD98F2 /* CNSSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSSplashViewController.m; sourceTree = "<group>"; };
+		BB46FB52133F587A00DD98F2 /* CNSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSStringAdditions.h; sourceTree = "<group>"; };
+		BB46FB53133F587A00DD98F2 /* CNSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSStringAdditions.m; sourceTree = "<group>"; };
+		BB46FB54133F587A00DD98F2 /* CNSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSWebViewController.h; sourceTree = "<group>"; };
+		BB46FB55133F587A00DD98F2 /* CNSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSWebViewController.m; sourceTree = "<group>"; };
+		BB46FB57133F587A00DD98F2 /* CNSBackgroundAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNSBackgroundAlert.png; sourceTree = "<group>"; };
+		BB46FB58133F587A00DD98F2 /* CNSButtonAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNSButtonAlert.png; sourceTree = "<group>"; };
+		BB46FB59133F587A00DD98F2 /* CNSButtonClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNSButtonClose.png; sourceTree = "<group>"; };
+		BB46FB5A133F587A00DD98F2 /* CNSButtonSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNSButtonSettings.png; sourceTree = "<group>"; };
+		BB46FB5B133F587A00DD98F2 /* CNSButtonSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CNSButtonSettings@2x.png"; sourceTree = "<group>"; };
+		BB46FB5C133F587A00DD98F2 /* CNSInterstitialView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNSInterstitialView.xib; sourceTree = "<group>"; };
+		BB46FB5D133F587A00DD98F2 /* CNSSplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNSSplashView.xib; sourceTree = "<group>"; };
 		BB527B9410B7EE04003EEBBC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BBE0176910A6139300D303CF /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
@@ -101,6 +146,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				BB46FB3F133F587A00DD98F2 /* AdSDK */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -148,6 +194,57 @@
 				BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB46FB3F133F587A00DD98F2 /* AdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BB46FB40133F587A00DD98F2 /* Classes */,
+				BB46FB56133F587A00DD98F2 /* Resources */,
+			);
+			path = AdSDK;
+			sourceTree = "<group>";
+		};
+		BB46FB40133F587A00DD98F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB46FB41133F587A00DD98F2 /* CNSAdBannerView.h */,
+				BB46FB42133F587A00DD98F2 /* CNSAdBannerView.m */,
+				BB46FB43133F587A00DD98F2 /* CNSAdConstants.h */,
+				BB46FB44133F587A00DD98F2 /* CNSAdConstants.m */,
+				BB46FB45133F587A00DD98F2 /* CNSAdEngine.h */,
+				BB46FB46133F587A00DD98F2 /* CNSAdEngine.m */,
+				BB46FB47133F587A00DD98F2 /* CNSAdEngineConnectionHelper.h */,
+				BB46FB48133F587A00DD98F2 /* CNSAdEngineConnectionHelper.m */,
+				BB46FB49133F587A00DD98F2 /* CNSAdEngineParser.h */,
+				BB46FB4A133F587A00DD98F2 /* CNSAdEngineParser.m */,
+				BB46FB4B133F587A00DD98F2 /* CNSAdKit.h */,
+				BB46FB4C133F587A00DD98F2 /* CNSAnimatedGIFLoader.h */,
+				BB46FB4D133F587A00DD98F2 /* CNSAnimatedGIFLoader.m */,
+				BB46FB4E133F587A00DD98F2 /* CNSInterstitialViewController.h */,
+				BB46FB4F133F587A00DD98F2 /* CNSInterstitialViewController.m */,
+				BB46FB50133F587A00DD98F2 /* CNSSplashViewController.h */,
+				BB46FB51133F587A00DD98F2 /* CNSSplashViewController.m */,
+				BB46FB52133F587A00DD98F2 /* CNSStringAdditions.h */,
+				BB46FB53133F587A00DD98F2 /* CNSStringAdditions.m */,
+				BB46FB54133F587A00DD98F2 /* CNSWebViewController.h */,
+				BB46FB55133F587A00DD98F2 /* CNSWebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB46FB56133F587A00DD98F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB46FB57133F587A00DD98F2 /* CNSBackgroundAlert.png */,
+				BB46FB58133F587A00DD98F2 /* CNSButtonAlert.png */,
+				BB46FB59133F587A00DD98F2 /* CNSButtonClose.png */,
+				BB46FB5A133F587A00DD98F2 /* CNSButtonSettings.png */,
+				BB46FB5B133F587A00DD98F2 /* CNSButtonSettings@2x.png */,
+				BB46FB5C133F587A00DD98F2 /* CNSInterstitialView.xib */,
+				BB46FB5D133F587A00DD98F2 /* CNSSplashView.xib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +310,13 @@
 				BBEB8D9E10A7641F00F50A2F /* Entitlements.plist in Resources */,
 				BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */,
 				BB031C0510CAF9E900432227 /* ona_ico.png in Resources */,
+				BB46FB68133F587A00DD98F2 /* CNSBackgroundAlert.png in Resources */,
+				BB46FB69133F587A00DD98F2 /* CNSButtonAlert.png in Resources */,
+				BB46FB6A133F587A00DD98F2 /* CNSButtonClose.png in Resources */,
+				BB46FB6B133F587A00DD98F2 /* CNSButtonSettings.png in Resources */,
+				BB46FB6C133F587A00DD98F2 /* CNSButtonSettings@2x.png in Resources */,
+				BB46FB6D133F587A00DD98F2 /* CNSInterstitialView.xib in Resources */,
+				BB46FB6E133F587A00DD98F2 /* CNSSplashView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +331,16 @@
 				1D3623260D0F684500981E51 /* ONA_FMAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* ONA_FMViewController.m in Sources */,
 				BBEB232E10A21AAC00145E67 /* AudioStreamer.m in Sources */,
+				BB46FB5E133F587A00DD98F2 /* CNSAdBannerView.m in Sources */,
+				BB46FB5F133F587A00DD98F2 /* CNSAdConstants.m in Sources */,
+				BB46FB60133F587A00DD98F2 /* CNSAdEngine.m in Sources */,
+				BB46FB61133F587A00DD98F2 /* CNSAdEngineConnectionHelper.m in Sources */,
+				BB46FB62133F587A00DD98F2 /* CNSAdEngineParser.m in Sources */,
+				BB46FB63133F587A00DD98F2 /* CNSAnimatedGIFLoader.m in Sources */,
+				BB46FB64133F587A00DD98F2 /* CNSInterstitialViewController.m in Sources */,
+				BB46FB65133F587A00DD98F2 /* CNSSplashViewController.m in Sources */,
+				BB46FB66133F587A00DD98F2 /* CNSStringAdditions.m in Sources */,
+				BB46FB67133F587A00DD98F2 /* CNSWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
