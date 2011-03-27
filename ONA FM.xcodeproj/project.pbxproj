@@ -21,6 +21,7 @@
 		BB1D729A111B5B45009B64C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7299111B5B45009B64C3 /* QuartzCore.framework */; };
 		BB1D729C111B5B45009B64C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D729B111B5B45009B64C3 /* UIKit.framework */; };
 		BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB527B9410B7EE04003EEBBC /* Entitlements.plist */; };
+<<<<<<< HEAD
 		BBD4C245133F491B00D2804C /* CNSAdBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD4C229133F491B00D2804C /* CNSAdBannerView.m */; };
 		BBD4C246133F491B00D2804C /* CNSAdConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD4C22B133F491B00D2804C /* CNSAdConstants.m */; };
 		BBD4C247133F491B00D2804C /* CNSAdEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD4C22D133F491B00D2804C /* CNSAdEngine.m */; };
@@ -38,12 +39,22 @@
 		BBD4C253133F491B00D2804C /* CNSButtonSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD4C242133F491B00D2804C /* CNSButtonSettings@2x.png */; };
 		BBD4C254133F491B00D2804C /* CNSInterstitialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD4C243133F491B00D2804C /* CNSInterstitialView.xib */; };
 		BBD4C255133F491B00D2804C /* CNSSplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD4C244133F491B00D2804C /* CNSSplashView.xib */; };
+=======
+		BBB844F511D9379A00C5A00C /* MyAdInsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB844F411D9379A00C5A00C /* MyAdInsideViewController.m */; };
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 		BBDF5D7F113EBA8F00D0EB0E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */; };
 		BBE0176B10A6139300D303CF /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE0176910A6139300D303CF /* pausebutton.png */; };
 		BBE0176C10A6139300D303CF /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE0176A10A6139300D303CF /* playbutton.png */; };
 		BBEB232E10A21AAC00145E67 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB232D10A21AAC00145E67 /* AudioStreamer.m */; };
 		BBEB8D9D10A7641F00F50A2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEB8D9B10A7641F00F50A2F /* Default.png */; };
 		BBEB8D9E10A7641F00F50A2F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */; };
+<<<<<<< HEAD
+=======
+		BBFD10B011D5EC8800E5F1C9 /* AdInsideApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD10AF11D5EC8800E5F1C9 /* AdInsideApp.a */; };
+		BBFD10B611D5ECA800E5F1C9 /* adDefaultTextBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFD10B311D5ECA800E5F1C9 /* adDefaultTextBackgroundImage.png */; };
+		BBFD10B711D5ECA800E5F1C9 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFD10B411D5ECA800E5F1C9 /* left.png */; };
+		BBFD10B811D5ECA800E5F1C9 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFD10B511D5ECA800E5F1C9 /* right.png */; };
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +77,7 @@
 		BB1D7299111B5B45009B64C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BB1D729B111B5B45009B64C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BB527B9410B7EE04003EEBBC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		BBD4C228133F491B00D2804C /* CNSAdBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdBannerView.h; sourceTree = "<group>"; };
 		BBD4C229133F491B00D2804C /* CNSAdBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNSAdBannerView.m; sourceTree = "<group>"; };
 		BBD4C22A133F491B00D2804C /* CNSAdConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNSAdConstants.h; sourceTree = "<group>"; };
@@ -94,6 +106,10 @@
 		BBD4C242133F491B00D2804C /* CNSButtonSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CNSButtonSettings@2x.png"; sourceTree = "<group>"; };
 		BBD4C243133F491B00D2804C /* CNSInterstitialView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNSInterstitialView.xib; sourceTree = "<group>"; };
 		BBD4C244133F491B00D2804C /* CNSSplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNSSplashView.xib; sourceTree = "<group>"; };
+=======
+		BBB844F311D9379A00C5A00C /* MyAdInsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAdInsideViewController.h; sourceTree = "<group>"; };
+		BBB844F411D9379A00C5A00C /* MyAdInsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAdInsideViewController.m; sourceTree = "<group>"; };
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 		BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BBE0176910A6139300D303CF /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
 		BBE0176A10A6139300D303CF /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
@@ -101,6 +117,15 @@
 		BBEB232D10A21AAC00145E67 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
 		BBEB8D9B10A7641F00F50A2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		BBFD10AF11D5EC8800E5F1C9 /* AdInsideApp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdInsideApp.a; sourceTree = SOURCE_ROOT; };
+		BBFD10B111D5EC9700E5F1C9 /* AdInsideAppDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdInsideAppDelegateProtocol.h; sourceTree = SOURCE_ROOT; };
+		BBFD10B211D5EC9700E5F1C9 /* AdInsideAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdInsideAppView.h; sourceTree = SOURCE_ROOT; };
+		BBFD10B311D5ECA800E5F1C9 /* adDefaultTextBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adDefaultTextBackgroundImage.png; sourceTree = SOURCE_ROOT; };
+		BBFD10B411D5ECA800E5F1C9 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = SOURCE_ROOT; };
+		BBFD10B511D5ECA800E5F1C9 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = SOURCE_ROOT; };
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +141,10 @@
 				BB1D729A111B5B45009B64C3 /* QuartzCore.framework in Frameworks */,
 				BB1D729C111B5B45009B64C3 /* UIKit.framework in Frameworks */,
 				BBDF5D7F113EBA8F00D0EB0E /* SystemConfiguration.framework in Frameworks */,
+<<<<<<< HEAD
+=======
+				BBFD10B011D5EC8800E5F1C9 /* AdInsideApp.a in Frameworks */,
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +154,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				BBB844F311D9379A00C5A00C /* MyAdInsideViewController.h */,
+				BBB844F411D9379A00C5A00C /* MyAdInsideViewController.m */,
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				BBEB232C10A21AAC00145E67 /* AudioStreamer.h */,
 				BBEB232D10A21AAC00145E67 /* AudioStreamer.m */,
 				1D3623240D0F684500981E51 /* ONA_FMAppDelegate.h */,
@@ -146,7 +180,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				BBD4C226133F491B00D2804C /* AdSDK */,
+=======
+				BBFD10AE11D5EC5200E5F1C9 /* AdInside */,
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -196,6 +234,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		BBD4C226133F491B00D2804C /* AdSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +284,19 @@
 				BBD4C244133F491B00D2804C /* CNSSplashView.xib */,
 			);
 			path = Resources;
+=======
+		BBFD10AE11D5EC5200E5F1C9 /* AdInside */ = {
+			isa = PBXGroup;
+			children = (
+				BBFD10B311D5ECA800E5F1C9 /* adDefaultTextBackgroundImage.png */,
+				BBFD10B411D5ECA800E5F1C9 /* left.png */,
+				BBFD10B511D5ECA800E5F1C9 /* right.png */,
+				BBFD10B111D5EC9700E5F1C9 /* AdInsideAppDelegateProtocol.h */,
+				BBFD10B211D5EC9700E5F1C9 /* AdInsideAppView.h */,
+				BBFD10AF11D5EC8800E5F1C9 /* AdInsideApp.a */,
+			);
+			name = AdInside;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +362,7 @@
 				BBEB8D9E10A7641F00F50A2F /* Entitlements.plist in Resources */,
 				BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */,
 				BB031C0510CAF9E900432227 /* ona_ico.png in Resources */,
+<<<<<<< HEAD
 				BBD4C24F133F491B00D2804C /* CNSBackgroundAlert.png in Resources */,
 				BBD4C250133F491B00D2804C /* CNSButtonAlert.png in Resources */,
 				BBD4C251133F491B00D2804C /* CNSButtonClose.png in Resources */,
@@ -317,6 +370,11 @@
 				BBD4C253133F491B00D2804C /* CNSButtonSettings@2x.png in Resources */,
 				BBD4C254133F491B00D2804C /* CNSInterstitialView.xib in Resources */,
 				BBD4C255133F491B00D2804C /* CNSSplashView.xib in Resources */,
+=======
+				BBFD10B611D5ECA800E5F1C9 /* adDefaultTextBackgroundImage.png in Resources */,
+				BBFD10B711D5ECA800E5F1C9 /* left.png in Resources */,
+				BBFD10B811D5ECA800E5F1C9 /* right.png in Resources */,
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +389,7 @@
 				1D3623260D0F684500981E51 /* ONA_FMAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* ONA_FMViewController.m in Sources */,
 				BBEB232E10A21AAC00145E67 /* AudioStreamer.m in Sources */,
+<<<<<<< HEAD
 				BBD4C245133F491B00D2804C /* CNSAdBannerView.m in Sources */,
 				BBD4C246133F491B00D2804C /* CNSAdConstants.m in Sources */,
 				BBD4C247133F491B00D2804C /* CNSAdEngine.m in Sources */,
@@ -341,6 +400,9 @@
 				BBD4C24C133F491B00D2804C /* CNSSplashViewController.m in Sources */,
 				BBD4C24D133F491B00D2804C /* CNSStringAdditions.m in Sources */,
 				BBD4C24E133F491B00D2804C /* CNSWebViewController.m in Sources */,
+=======
+				BBB844F511D9379A00C5A00C /* MyAdInsideViewController.m in Sources */,
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,15 +418,24 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/AdInside\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "";
+=======
+					"\"$(SRCROOT)/../../../Desktop/release/AdInside\"",
+					"\"$(SRCROOT)/AdInside\"",
+				);
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				PRODUCT_NAME = "ONA FM";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -377,12 +448,19 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+<<<<<<< HEAD
+=======
+					"\"$(SRCROOT)/../../../Desktop/release/AdInside\"",
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 					"\"$(SRCROOT)/AdInside\"",
 				);
 				PRODUCT_NAME = "ONA FM";
@@ -398,16 +476,28 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				MACOSX_DEPLOYMENT_TARGET = "";
+=======
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+<<<<<<< HEAD
 				SDKROOT = iphoneos;
+=======
+				SDKROOT = iphoneos4.1;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			};
 			name = "Ad Hoc";
 		};
@@ -420,15 +510,24 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/AdInside\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "";
+=======
+					"\"$(SRCROOT)/../../../Desktop/release/AdInside\"",
+					"\"$(SRCROOT)/AdInside\"",
+				);
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				PRODUCT_NAME = "ONA FM";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -441,7 +540,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = c99;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+				GCC_VERSION = "";
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -449,7 +552,11 @@
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+<<<<<<< HEAD
 				SDKROOT = iphoneos;
+=======
+				SDKROOT = iphoneos4.1;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			};
 			name = Distribution;
 		};
@@ -461,12 +568,19 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+<<<<<<< HEAD
+=======
+					"\"$(SRCROOT)/../../../Desktop/release/AdInside\"",
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 					"\"$(SRCROOT)/AdInside\"",
 				);
 				PRODUCT_NAME = "ONA FM";
@@ -482,16 +596,28 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				MACOSX_DEPLOYMENT_TARGET = "";
+=======
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+<<<<<<< HEAD
 				SDKROOT = iphoneos;
+=======
+				SDKROOT = iphoneos4.1;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			};
 			name = Debug;
 		};
@@ -502,14 +628,22 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Borja Martin-Lunas (3W438PE8WZ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jose L. Sanchez Romero (459V25C2A7)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+				GCC_VERSION = 4.2;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "26231FC2-4975-4FA2-AB00-3726C2E29C1B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF1D4B75-ABFD-4FF8-A730-92A9196175BB";
+<<<<<<< HEAD
 				SDKROOT = iphoneos;
+=======
+				SDKROOT = iphoneos4.1;
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			};
 			name = Release;
 		};

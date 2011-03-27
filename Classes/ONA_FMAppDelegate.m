@@ -11,7 +11,10 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 @implementation ONA_FMAppDelegate
 
 @synthesize window;
@@ -19,9 +22,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+<<<<<<< HEAD
     splashViewController = [[CNSSplashViewController alloc] initWithNibName:@"CNSSplashView" bundle:nil];
     splashViewController.adSpaceID = @"7676"; 
     splashViewController.clickable = YES;
+=======
+
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 	[window addSubview:[viewController view]];
 	[window makeKeyAndVisible];
 	return TRUE;
@@ -53,7 +60,10 @@
 
 - (void)dealloc {
 
+<<<<<<< HEAD
     [splashViewController release];
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
     [window release];
     [super dealloc];
 }

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+<<<<<<< HEAD
 #import "CNSAdKit.h"
+=======
+
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 
 
 
@@ -17,7 +21,10 @@
 
     UIWindow *window;
     ONA_FMViewController *viewController;
+<<<<<<< HEAD
     CNSSplashViewController *splashViewController;
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 
 
 }

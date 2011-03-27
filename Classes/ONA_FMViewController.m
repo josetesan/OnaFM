@@ -16,7 +16,10 @@
 @synthesize webView;
 @synthesize playButton;
 @synthesize toolbar;
+<<<<<<< HEAD
 @synthesize adBannerView;
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 
 
 -(void) stopAudio {
@@ -157,11 +160,14 @@
 	[self.toolbar setFrame:CGRectMake(0, 0	, 320, 30)];
 	[self.toolbar setHidden:YES];
     [super viewDidLoad];
+<<<<<<< HEAD
     
     [self hideBannerView];
     [adBannerView setAdSpaceID:@"7675" forType:CNSAdBannerTypePortrait];
     adBannerView.currentType = CNSAdBannerTypePortrait;
     [adBannerView performSelector:@selector(load) withObject:nil];
+=======
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 
  }
 
@@ -239,8 +245,12 @@
 
  #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_3_0 
 - (void)viewDidUnload {
+<<<<<<< HEAD
 	self.adBannerView.delegate = nil;
     self.adBannerView = nil;
+=======
+	
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 	[spinner release];
 	[playButton release];
 	[super viewDidUnload];
@@ -265,13 +275,18 @@
 - (void)webViewDidFinishLoad:(UIWebView *)thisWebView
 {
 	NSString * urlString = [[thisWebView.request URL] absoluteString];
+<<<<<<< HEAD
 	if ([urlString isEqualToString:@"http://www.ona-fm.cat/streaming-iphone/streaming.php"]) {
+=======
+	if ([urlString isEqualToString:@"http://www.ona-fm.cat/graella_mobils.asp"]) {
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 		[self.toolbar setHidden:YES];
 	} else [self.toolbar setHidden:NO];
 
 	
 	[webSpinner stopAnimating];
 }
+<<<<<<< HEAD
 #pragma mark -
 #pragma mark AdBanners
 
@@ -290,5 +305,9 @@
         [UIView commitAnimations];
     }
 }
+=======
+
+
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 
 @end

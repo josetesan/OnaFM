@@ -734,7 +734,11 @@ void ASReadStreamCallBack
 			if (state != AS_STOPPING &&
 				state != AS_STOPPED)
 			{
+<<<<<<< HEAD
 				NSLog(@"### Not starting audio thread. State code is: %u", state);
+=======
+				NSLog(@"### Not starting audio thread. State code is: %ld", state);
+>>>>>>> 1799322c5bfe3bbcf9f4f89befb48fb16f528a87
 			}
 			self.state = AS_INITIALIZED;
 			[pool release];
