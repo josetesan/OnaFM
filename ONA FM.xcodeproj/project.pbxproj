@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ONA_FMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ONA_FMAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2899E5220DE3E06400AC0155 /* ONA_FMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ONA_FMViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* ONA_FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ONA_FMViewController.m */; };
+		BB031C0510CAF9E900432227 /* ona_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = BB031C0410CAF9E900432227 /* ona_ico.png */; };
+		BB1D7290111B5B45009B64C3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D728F111B5B45009B64C3 /* AudioToolbox.framework */; };
+		BB1D7292111B5B45009B64C3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7291111B5B45009B64C3 /* CFNetwork.framework */; };
+		BB1D7294111B5B45009B64C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7293111B5B45009B64C3 /* CoreGraphics.framework */; };
+		BB1D7296111B5B45009B64C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7295111B5B45009B64C3 /* Foundation.framework */; };
+		BB1D7298111B5B45009B64C3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7297111B5B45009B64C3 /* MediaPlayer.framework */; };
+		BB1D729A111B5B45009B64C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D7299111B5B45009B64C3 /* QuartzCore.framework */; };
+		BB1D729C111B5B45009B64C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D729B111B5B45009B64C3 /* UIKit.framework */; };
+		BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB527B9410B7EE04003EEBBC /* Entitlements.plist */; };
+		BBDF5D7F113EBA8F00D0EB0E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */; };
+		BBE0176B10A6139300D303CF /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE0176910A6139300D303CF /* pausebutton.png */; };
+		BBE0176C10A6139300D303CF /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE0176A10A6139300D303CF /* playbutton.png */; };
+		BBEB232E10A21AAC00145E67 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB232D10A21AAC00145E67 /* AudioStreamer.m */; };
+		BBEB8D9D10A7641F00F50A2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEB8D9B10A7641F00F50A2F /* Default.png */; };
+		BBEB8D9E10A7641F00F50A2F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* ONA_FMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONA_FMAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ONA_FMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONA_FMAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ONA FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ONA FM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2899E5210DE3E06400AC0155 /* ONA_FMViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ONA_FMViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* ONA_FMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONA_FMViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* ONA_FMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONA_FMViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ONA_FM_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONA_FM_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ONA_FM-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ONA_FM-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BB031C0410CAF9E900432227 /* ona_ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ona_ico.png; sourceTree = "<group>"; };
+		BB1D728F111B5B45009B64C3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB1D7291111B5B45009B64C3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BB1D7293111B5B45009B64C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB1D7295111B5B45009B64C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB1D7297111B5B45009B64C3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BB1D7299111B5B45009B64C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BB1D729B111B5B45009B64C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB527B9410B7EE04003EEBBC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BBE0176910A6139300D303CF /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		BBE0176A10A6139300D303CF /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		BBEB232C10A21AAC00145E67 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		BBEB232D10A21AAC00145E67 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		BBEB8D9B10A7641F00F50A2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1D7290111B5B45009B64C3 /* AudioToolbox.framework in Frameworks */,
+				BB1D7292111B5B45009B64C3 /* CFNetwork.framework in Frameworks */,
+				BB1D7294111B5B45009B64C3 /* CoreGraphics.framework in Frameworks */,
+				BB1D7296111B5B45009B64C3 /* Foundation.framework in Frameworks */,
+				BB1D7298111B5B45009B64C3 /* MediaPlayer.framework in Frameworks */,
+				BB1D729A111B5B45009B64C3 /* QuartzCore.framework in Frameworks */,
+				BB1D729C111B5B45009B64C3 /* UIKit.framework in Frameworks */,
+				BBDF5D7F113EBA8F00D0EB0E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB232C10A21AAC00145E67 /* AudioStreamer.h */,
+				BBEB232D10A21AAC00145E67 /* AudioStreamer.m */,
+				1D3623240D0F684500981E51 /* ONA_FMAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ONA_FMAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* ONA_FMViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* ONA_FMViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ONA FM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				BB527B9410B7EE04003EEBBC /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ONA_FM_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB031C0410CAF9E900432227 /* ona_ico.png */,
+				BBEB8D9B10A7641F00F50A2F /* Default.png */,
+				BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */,
+				BBE0176910A6139300D303CF /* pausebutton.png */,
+				BBE0176A10A6139300D303CF /* playbutton.png */,
+				2899E5210DE3E06400AC0155 /* ONA_FMViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* ONA_FM-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D728F111B5B45009B64C3 /* AudioToolbox.framework */,
+				BB1D7291111B5B45009B64C3 /* CFNetwork.framework */,
+				BB1D7293111B5B45009B64C3 /* CoreGraphics.framework */,
+				BB1D7295111B5B45009B64C3 /* Foundation.framework */,
+				BB1D7297111B5B45009B64C3 /* MediaPlayer.framework */,
+				BB1D7299111B5B45009B64C3 /* QuartzCore.framework */,
+				BB1D729B111B5B45009B64C3 /* UIKit.framework */,
+				BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ONA FM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ONA FM" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ONA FM";
+			productName = "ONA FM";
+			productReference = 1D6058910D05DD3D006BFB54 /* ONA FM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				ORGANIZATIONNAME = mCentric;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ONA FM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				fr,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ONA FM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* ONA_FMViewController.xib in Resources */,
+				BBE0176B10A6139300D303CF /* pausebutton.png in Resources */,
+				BBE0176C10A6139300D303CF /* playbutton.png in Resources */,
+				BBEB8D9D10A7641F00F50A2F /* Default.png in Resources */,
+				BBEB8D9E10A7641F00F50A2F /* Entitlements.plist in Resources */,
+				BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */,
+				BB031C0510CAF9E900432227 /* ona_ico.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ONA_FMAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* ONA_FMViewController.m in Sources */,
+				BBEB232E10A21AAC00145E67 /* AudioStreamer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+				INFOPLIST_FILE = "ONA_FM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "ONA FM";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+				INFOPLIST_FILE = "ONA_FM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "ONA FM";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BB054FCB112DC7080061E4FA /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		BB054FCC112DC7080061E4FA /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+				INFOPLIST_FILE = "ONA_FM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "ONA FM";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Ad Hoc";
+		};
+		BB527B5B10B7EB74003EEBBC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		BB527B5C10B7EB74003EEBBC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
+				INFOPLIST_FILE = "ONA_FM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "ONA FM";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Borja Martin-Lunas (3W438PE8WZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jose L. Sanchez Romero (459V25C2A7)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "26231FC2-4975-4FA2-AB00-3726C2E29C1B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF1D4B75-ABFD-4FF8-A730-92A9196175BB";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ONA FM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				BB054FCC112DC7080061E4FA /* Ad Hoc */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				BB527B5C10B7EB74003EEBBC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ONA FM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				BB054FCB112DC7080061E4FA /* Ad Hoc */,
+				C01FCF5008A954540054247B /* Release */,
+				BB527B5B10B7EB74003EEBBC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
