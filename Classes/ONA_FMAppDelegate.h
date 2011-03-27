@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CNSAdKit.h"
 
 
 
@@ -17,12 +17,15 @@
 
     UIWindow *window;
     ONA_FMViewController *viewController;
+    CNSSplashViewController *splashViewController;
 
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet ONA_FMViewController *viewController;
+@property (nonatomic, retain) CNSSplashViewController *splashViewController;
+
 
 @end
 

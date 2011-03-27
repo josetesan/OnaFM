@@ -15,11 +15,18 @@
 
 @synthesize window;
 @synthesize viewController;
+@synthesize splashViewController;
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-	[window addSubview:[viewController view]];
+    splashViewController = [[CNSSplashViewController alloc] initWithNibName:@"CNSSplashView" bundle:nil];
+    splashViewController.adSpaceID = @"7676"; 
+    splashViewController.clickable = YES;
+    [window addSubview:[viewController view]];
+	
+    [window addSubview:splashViewController.view];
 	[window makeKeyAndVisible];
 	return TRUE;
 }
@@ -50,6 +57,7 @@
 
 - (void)dealloc {
 
+    [splashViewController release];
     [window release];
     [super dealloc];
 }

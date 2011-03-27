@@ -290,7 +290,11 @@
 #pragma mark -
 #pragma mark AdView
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation { return NO;
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation { 
+    if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
+        return YES;
+    } else return NO;
+    
 }
 
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
@@ -302,21 +306,21 @@
 }
 
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation duration:(NSTimeInterval)duration {
-        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) { 
-            if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
-            adBannerView.frame = CGRectMake(0, 880 + (!adBannerView.available ? 124 : 0), 768, 124);
-        } else {
-        
-            adBannerView.frame = CGRectMake(0, 581 + (!adBannerView.available ? 167 : 0), 1024, 167);
-        }
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) { 
+     if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
+        adBannerView.frame = CGRectMake(0, 880 + (!adBannerView.available ? 124 : 0), 768, 124);
+      } else {
+        adBannerView.frame = CGRectMake(0, 581 + (!adBannerView.available ? 167 : 0), 1024, 167);
+     }
     } else {
-        if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) { 
-            adBannerView.frame = CGRectMake(0, 407 + (!adBannerView.available ? 53 : 0), 320, 53);
-        } else {
-            adBannerView.frame = CGRectMake(0, 247 + (!adBannerView.available ? 53 : 0), 480, 53);
-        }
+     if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) { 
+        adBannerView.frame = CGRectMake(0, 407 + (!adBannerView.available ? 53 : 0), 320, 53);
+     } else {
+        adBannerView.frame = CGRectMake(0, 247 + (!adBannerView.available ? 53 : 0), 480, 53);
+     }
     }
 }
+
 
 
 
