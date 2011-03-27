@@ -1,0 +1,39 @@
+//
+//  ONA_FMAppDelegate.m
+//  ONA FM
+//
+//  Created by jose luis sanchez on 02/11/09.
+//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//
+
+#import "ONA_FMAppDelegate.h"
+#import "ONA_FMViewController.h"
+
+
+
+@implementation ONA_FMAppDelegate
+
+@synthesize window;
+@synthesize viewController;
+
+
+
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {    
+
+	[window addSubview:[viewController view]];
+	[window makeKeyAndVisible];
+	
+}
+
+
+
+- (void)dealloc {
+
+    [window release];
+    [super dealloc];
+}
+
+
+
+@end
