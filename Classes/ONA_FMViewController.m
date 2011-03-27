@@ -290,11 +290,12 @@
 #pragma mark -
 #pragma mark AdView
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation { return YES;
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation { return NO;
 }
 
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-    if (UIInterfaceOrientationIsPortrait(toInterfaceOrientation)) { adBannerView.currentType = CNSAdBannerTypePortrait;
+    if (UIInterfaceOrientationIsPortrait(toInterfaceOrientation)) {
+        adBannerView.currentType = CNSAdBannerTypePortrait;
     } else {
         adBannerView.currentType = CNSAdBannerTypeLandscape;
     }
