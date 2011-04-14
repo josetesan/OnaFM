@@ -455,7 +455,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Union Radio";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
@@ -466,7 +466,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "ONA FM";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2639462A-04C1-4E61-A666-92DF46677DD8";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Distribution;
