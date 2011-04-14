@@ -181,7 +181,7 @@
 
 		
 		/* Operation Queue init (autorelease) */
-		NSOperationQueue *queue = [NSOperationQueue new];
+		NSOperationQueue *queue = [[NSOperationQueue alloc] init];
 		
 		/* Create our NSInvocationOperation to call loadDataWithOperation, passing in nil */
 		NSInvocationOperation *operation = [[NSInvocationOperation alloc] initWithTarget:self
@@ -191,6 +191,8 @@
 		/* Add the operation to the queue */
 		[queue addOperation:operation];
 		[operation release];
+        [queue release];
+    
 	
 }
 
