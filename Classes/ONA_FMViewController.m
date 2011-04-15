@@ -182,7 +182,6 @@
 		
 		/* Operation Queue init (autorelease) */
 		NSOperationQueue *queue = [[NSOperationQueue alloc] init];
-		
 		/* Create our NSInvocationOperation to call loadDataWithOperation, passing in nil */
 		NSInvocationOperation *operation = [[NSInvocationOperation alloc] initWithTarget:self
 																		  selector:@selector(loadTheWeb)
