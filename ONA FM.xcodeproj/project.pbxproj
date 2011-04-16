@@ -37,13 +37,12 @@
 		BB46FB6C133F587A00DD98F2 /* CNSButtonSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB5B133F587A00DD98F2 /* CNSButtonSettings@2x.png */; };
 		BB46FB6D133F587A00DD98F2 /* CNSInterstitialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB5C133F587A00DD98F2 /* CNSInterstitialView.xib */; };
 		BB46FB6E133F587A00DD98F2 /* CNSSplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB46FB5D133F587A00DD98F2 /* CNSSplashView.xib */; };
-		BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB527B9410B7EE04003EEBBC /* Entitlements.plist */; };
+		BBB19FF41359DC6600A54D81 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBB19FF31359DC6600A54D81 /* Entitlements.plist */; };
 		BBDF5D7F113EBA8F00D0EB0E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */; };
 		BBE0176B10A6139300D303CF /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE0176910A6139300D303CF /* pausebutton.png */; };
 		BBE0176C10A6139300D303CF /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE0176A10A6139300D303CF /* playbutton.png */; };
 		BBEB232E10A21AAC00145E67 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB232D10A21AAC00145E67 /* AudioStreamer.m */; };
 		BBEB8D9D10A7641F00F50A2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEB8D9B10A7641F00F50A2F /* Default.png */; };
-		BBEB8D9E10A7641F00F50A2F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,14 +92,13 @@
 		BB46FB5B133F587A00DD98F2 /* CNSButtonSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CNSButtonSettings@2x.png"; sourceTree = "<group>"; };
 		BB46FB5C133F587A00DD98F2 /* CNSInterstitialView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNSInterstitialView.xib; sourceTree = "<group>"; };
 		BB46FB5D133F587A00DD98F2 /* CNSSplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNSSplashView.xib; sourceTree = "<group>"; };
-		BB527B9410B7EE04003EEBBC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		BBB19FF31359DC6600A54D81 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = "ONA FM.xcodeproj/Entitlements.plist"; sourceTree = "<group>"; };
 		BBDF5D7E113EBA8F00D0EB0E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BBE0176910A6139300D303CF /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
 		BBE0176A10A6139300D303CF /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
 		BBEB232C10A21AAC00145E67 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
 		BBEB232D10A21AAC00145E67 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
 		BBEB8D9B10A7641F00F50A2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +150,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				BB527B9410B7EE04003EEBBC /* Entitlements.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -169,9 +166,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BBB19FF31359DC6600A54D81 /* Entitlements.plist */,
 				BB031C0410CAF9E900432227 /* ona_ico.png */,
 				BBEB8D9B10A7641F00F50A2F /* Default.png */,
-				BBEB8D9C10A7641F00F50A2F /* Entitlements.plist */,
 				BBE0176910A6139300D303CF /* pausebutton.png */,
 				BBE0176A10A6139300D303CF /* playbutton.png */,
 				2899E5210DE3E06400AC0155 /* ONA_FMViewController.xib */,
@@ -307,8 +304,6 @@
 				BBE0176B10A6139300D303CF /* pausebutton.png in Resources */,
 				BBE0176C10A6139300D303CF /* playbutton.png in Resources */,
 				BBEB8D9D10A7641F00F50A2F /* Default.png in Resources */,
-				BBEB8D9E10A7641F00F50A2F /* Entitlements.plist in Resources */,
-				BB527B9510B7EE04003EEBBC /* Entitlements.plist in Resources */,
 				BB031C0510CAF9E900432227 /* ona_ico.png in Resources */,
 				BB46FB68133F587A00DD98F2 /* CNSBackgroundAlert.png in Resources */,
 				BB46FB69133F587A00DD98F2 /* CNSButtonAlert.png in Resources */,
@@ -317,6 +312,7 @@
 				BB46FB6C133F587A00DD98F2 /* CNSButtonSettings@2x.png in Resources */,
 				BB46FB6D133F587A00DD98F2 /* CNSInterstitialView.xib in Resources */,
 				BB46FB6E133F587A00DD98F2 /* CNSSplashView.xib in Resources */,
+				BBB19FF41359DC6600A54D81 /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +353,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
-				GCC_VERSION = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -375,11 +371,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Union Radio";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
-				GCC_VERSION = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -388,7 +384,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "ONA FM";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2639462A-04C1-4E61-A666-92DF46677DD8";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -423,7 +419,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
-				GCC_VERSION = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -465,7 +461,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ONA_FM_Prefix.pch;
-				GCC_VERSION = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ONA_FM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
